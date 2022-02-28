@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector("#elem1"),l=document.querySelector("#elem2");function t(e,l){alert(this.value+", "+e+" "+l)}(function(){alert(this.value)}).call(e),t.call(l,"Kuzbar","Stanislau"),t.apply(l,["Kuzbar","Stanislau"]);const a=t.bind(l);a("Nemtcov","Boris"),a("Hodorkovskiy","Mihail")})();
